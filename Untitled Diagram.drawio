@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T05:56:56.652Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.5" etag="wicrEzwCdzZfqeayDJjw" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-16T06:08:59.457Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="kjbtAUWIUgl0_e9naTNH" version="24.6.5" type="github">
   <diagram name="Page-1" id="qR2hd8AVXo8gtJS109xo">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="530" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="AyelGVHfP6VSbaoiG7Rm-4" value="CMS" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="140" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="AyelGVHfP6VSbaoiG7Rm-5" value="&lt;div style=&quot;text-align: center;&quot;&gt;1. Create&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="AyelGVHfP6VSbaoiG7Rm-4">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AyelGVHfP6VSbaoiG7Rm-6" value="&lt;span style=&quot;text-align: center;&quot;&gt;2. Update&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="AyelGVHfP6VSbaoiG7Rm-4">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AyelGVHfP6VSbaoiG7Rm-7" value="&lt;span style=&quot;text-align: center;&quot;&gt;3. Delete&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="AyelGVHfP6VSbaoiG7Rm-4">
+          <mxGeometry y="90" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AyelGVHfP6VSbaoiG7Rm-8" value="&lt;div&gt;&lt;span style=&quot;text-align: center; background-color: initial;&quot;&gt;4.Manage&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="AyelGVHfP6VSbaoiG7Rm-4">
+          <mxGeometry y="140" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AyelGVHfP6VSbaoiG7Rm-9" value="&lt;b&gt;Database&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Stores:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1.Users&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2.Blogs&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="280" y="30" width="160" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="AyelGVHfP6VSbaoiG7Rm-11" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;bottom=1;right=1;left=1;top=0;fillColor=none;routingCenterX=-0.5;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AyelGVHfP6VSbaoiG7Rm-12" value="" style="line;strokeWidth=2;direction=south;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="290" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="AyelGVHfP6VSbaoiG7Rm-13" value="Backend" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="360" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AyelGVHfP6VSbaoiG7Rm-14" value="SSR&lt;div&gt;Nextjs&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="584" y="37" width="143" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="AyelGVHfP6VSbaoiG7Rm-15" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="651" y="360" as="sourcePoint" />
+            <mxPoint x="651" y="182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyelGVHfP6VSbaoiG7Rm-16" value="Frontend" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="591" y="363" width="120" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
